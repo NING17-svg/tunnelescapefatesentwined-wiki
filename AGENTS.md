@@ -79,3 +79,7 @@ When docs/design/page-assembly.json exists, preserve its page-family composition
 ## Public player content
 
 Use modules only when the player task needs them. Key facts, quick answers, FAQ and media are optional; do not fill empty components. Never automatically render source tiers, review dates, Steam IDs, version/remake declarations or a site disclaimer. Preserve internal data for verification. Homepage device/release/pricing facts belong on approved independent routes. Required Collector maps/screenshots must be visible local assets; decorative fallback cannot hide an essential answer image. During launch assembly, maintain docs/build/content-assembly.json and rerun the central local gate after changing mapped content; final launch additionally checks actual public HTML. After launch, retain the mapping as a launch record; subsequent updates follow the content-updater contract.
+
+## Shared guide Worker deployment
+
+Production is served by Worker `game-guide-new-pool-001` in `new-guide-pool-001`. `.shared-worker.json` is the authoritative mapping; deployment repository: `NING17-svg/game-guide-new-pool-001`. The source remains static export. Main pushes call the configured shared deploy hook. Never deploy this source with Wrangler or recreate an independent Worker. Verify publication with central `cloudflare_push_verify.py --repo-root <source>`; source SHA, successful shared build, 100% active version and domain marker must agree.
