@@ -1,0 +1,133 @@
+{
+  "schema": "adsterra-placement-inventory-v1",
+  "layout_version": "v4-horizontal-2026-10-02",
+  "adUnits": [
+    {
+      "key": "page-top-728x90",
+      "type": "Banner",
+      "size": "728x90"
+    },
+    {
+      "key": "page-top-468x60",
+      "type": "Banner",
+      "size": "468x60"
+    },
+    {
+      "key": "page-top-320x50",
+      "type": "Banner",
+      "size": "320x50"
+    },
+    {
+      "key": "home-after-entry-native-banner",
+      "type": "Native Banner"
+    },
+    {
+      "key": "home-topic-break-728x90",
+      "type": "Banner",
+      "size": "728x90"
+    },
+    {
+      "key": "home-topic-break-468x60",
+      "type": "Banner",
+      "size": "468x60"
+    },
+    {
+      "key": "home-topic-break-300x250",
+      "type": "Banner",
+      "size": "300x250"
+    },
+    {
+      "key": "home-directory-end-468x60",
+      "type": "Banner",
+      "size": "468x60"
+    },
+    {
+      "key": "home-directory-end-320x50",
+      "type": "Banner",
+      "size": "320x50"
+    },
+    {
+      "key": "guide-native-native-banner",
+      "type": "Native Banner"
+    },
+    {
+      "key": "guide-section-break-728x90",
+      "type": "Banner",
+      "size": "728x90"
+    },
+    {
+      "key": "guide-section-break-468x60",
+      "type": "Banner",
+      "size": "468x60"
+    },
+    {
+      "key": "guide-section-break-320x50",
+      "type": "Banner",
+      "size": "320x50"
+    },
+    {
+      "key": "guide-before-faq-468x60",
+      "type": "Banner",
+      "size": "468x60"
+    },
+    {
+      "key": "guide-before-faq-320x50",
+      "type": "Banner",
+      "size": "320x50"
+    },
+    {
+      "key": "footer-sponsored-smartlink",
+      "type": "Smartlink"
+    }
+  ],
+  "slots": [
+    {
+      "id": "page-top",
+      "page_kind": "all",
+      "desktop": ["page-top-728x90", "page-top-468x60"],
+      "mobile": ["page-top-320x50"]
+    },
+    {
+      "id": "home-after-entry",
+      "page_kind": "home",
+      "desktop": ["home-after-entry-native-banner"],
+      "mobile": ["home-after-entry-native-banner"]
+    },
+    {
+      "id": "home-topic-break",
+      "page_kind": "home",
+      "desktop": ["home-topic-break-728x90", "home-topic-break-468x60"],
+      "mobile": ["home-topic-break-300x250"]
+    },
+    {
+      "id": "home-directory-end",
+      "page_kind": "home",
+      "desktop": ["home-directory-end-468x60"],
+      "mobile": ["home-directory-end-320x50"]
+    },
+    {
+      "id": "guide-native",
+      "page_kind": "guide",
+      "desktop": [],
+      "mobile": ["guide-native-native-banner"]
+    },
+    {
+      "id": "guide-section-break",
+      "page_kind": "guide",
+      "desktop": ["guide-section-break-728x90", "guide-section-break-468x60"],
+      "mobile": ["guide-section-break-320x50"]
+    },
+    {
+      "id": "guide-before-faq",
+      "page_kind": "guide",
+      "desktop": ["guide-before-faq-468x60"],
+      "mobile": ["guide-before-faq-320x50"]
+    },
+    {
+      "id": "footer-sponsored",
+      "page_kind": "all",
+      "desktop": ["footer-sponsored-smartlink"],
+      "mobile": ["footer-sponsored-smartlink"]
+    }
+  ]
+}

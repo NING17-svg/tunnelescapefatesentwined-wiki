@@ -1,0 +1,43 @@
+{
+  "name": "game-guide-site-template",
+  "version": "0.4.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "indexnow:setup": "tsx scripts/indexnow.ts setup",
+    "indexnow:submit": "tsx scripts/indexnow.ts submit",
+    "routes:manifest": "tsx scripts/print-route-manifest.ts",
+    "verify": "npm run typecheck && npm run lint && npm run build",
+    "preview": "npm run build && wrangler dev"
+  },
+  "dependencies": {
+    "next": "15.5.18",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-markdown": "^10.1.0",
+    "remark-gfm": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "15.5.18",
+    "tsx": "^4.20.5",
+    "typescript": "^5.7.0",
+    "wrangler": "^4.101.0"
+  },
+  "overrides": {
+    "postcss": "^8.5.10",
+    "wrangler": {
+      "esbuild": "^0.28.1"
+    },
+    "miniflare": {
+      "ws": "^8.21.0"
+    }
+  }
+}
