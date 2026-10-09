@@ -10,6 +10,7 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 - Adsterra has all ten available platform formats and sizes for this domain, including Popunder and Social Bar. The site inventory selects only Banner, Native Banner and Smartlink; no Popunder or Social Bar code was added to the site.
 - Filled the 16 approved inventory keys with six distinct platform codes, shared by matching format and size. No page position, route, content or SEO field changed.
+- Clarified the local ad layout rule: platform requests are separate from which formats the page selects, and repeated same-format bindings share one platform code.
 - `npm run verify` passed for this code binding. Platform approval and live ad display are separate.
 
 ### 2026-10-02 - V4 semantic ad inventory
