@@ -6,6 +6,12 @@ Record every growth-relevant edit here. Keep entries short, factual, and useful 
 
 ## Change Log
 
+### 2026-10-09 - Adsterra code binding
+
+- Adsterra has all ten available platform formats and sizes for this domain, including Popunder and Social Bar. The site inventory selects only Banner, Native Banner and Smartlink; no Popunder or Social Bar code was added to the site.
+- Filled the 16 approved inventory keys with six distinct platform codes, shared by matching format and size. No page position, route, content or SEO field changed.
+- `npm run verify` passed for this code binding. Platform approval and live ad display are separate.
+
 ### 2026-10-02 - V4 semantic ad inventory
 
 - Replaced fixed six format bindings with independently named positions and container-fitting device alternatives; added 160x300 and mobile-home-only 300x250 capability. Guide bodies and desktop prohibit rectangles; Social Bar excluded.
